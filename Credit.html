@@ -1,0 +1,50 @@
+<!DOCTYPE html!> 
+<html>
+   <head>
+   <meta charset="utf-8">
+      <title>Green Isles Bus</title>
+	  <link href="css/creditstyle.css" type="text/css" rel="stylesheet"/>
+   </head>
+   <body>
+        <div id="header">
+                <li><h1>Green Isles Bus</h1></li>
+				<li><a href="Websitehomepage.html">Home</a></li>
+				<li><a href="Newspage.html">News</a></li>
+				<li><a href="TicketBooking.html">Ticket Booking</a></li>
+				<li><a href="Bustimetablepage.html">Timetables</a></li>
+				<li><a href="Support.html">Customer Support</a></li>
+				<li><a href="Safetypage.html">Safety Information</a></li>
+			</ul>
+		</div>
+		<div class="credit-card-form">
+        <h2>Credit Card Payment</h2>
+        <form action="/submit-payment" method="POST">
+            <label for="cardholder-name">Cardholder Name</label>
+            <input type="text" id="cardholder-name" name="cardholder-name" required>
+
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" name="card-number" required pattern="\d{16}" title="Please enter a valid 16-digit card number">
+			<p></p>
+
+            <label for="expiry-date">Expiration Date</label>
+            <input type="month" id="expiry-date" name="expiry-date" required>
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required pattern="\d{3}" title="Please enter a valid 3-digit CVV">
+			<p></p>
+
+            <button type="submit">Submit Payment</button>
+			<input type="reset">
+			<p></p>
+			<p></p>
+			<div class = "box">
+		<p>Thank you for purchasing from us! We hope that you have a great time travelling with us!</p>
+    </div>
+	
+	<p></p>
+	<img src = "imgs/ticket.jpg"  width = "700">
+        </form>
+		
+		</div>
+		
+	</body>

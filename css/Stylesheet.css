@@ -1,0 +1,113 @@
+        
+	@media screen and (min-width: 1000px){
+		.grid-container {
+
+		  grid-template-rows: 80px 80px; 
+		  grid-template-columns: auto auto auto; 
+           grid-gap: 100px 25px;
+         
+		}
+	} 
+	
+	 .grid-container {
+		  display: grid; 
+		  /*Set up grid w 2 rows and 3 columns*/
+
+		   /*Space between grid items*/		  
+		  padding: 70px; 
+
+		   background-color: #D63230;
+
+		   
+		}
+        form {
+		   background-color: grey; 
+		   border: 5px solid black; 
+		   max-width: 500px;
+		   float: left; 
+		}
+
+		label {
+		   background-color: grey;
+		   float: right; 
+		  width: 40%;
+		} 
+	    li { 
+			     display: inline; 
+				 margin: 0px 3px; 
+				 font-family: Arial; 
+	    } 
+
+        ul { 
+			    width: 570px; 
+				padding: 15px; 
+				margin: 0px auto 0px auto; 
+				border-top: 2px solid #000; 
+				border-bottom: 1px solid #000; 
+				text-align: center;
+	    }
+		
+		#header {
+				margin-top: 0;
+                padding: 3em 1em 2em 1em;
+                background-color: #D63230;
+				text-align: center; 
+			}
+		a {
+			  color: #000; 
+			  text-transform: uppercase; 
+			  text-decoration: none; 
+			  padding: 20px 18px 18px 20px; 
+			  }  
+			  
+		tr.head{
+		    border: 2px;
+			padding: 5px 30px 5px 10px;
+			border-spacing: 0px; 
+			font-size: 90%; 
+			maring: 0px; 
+			text-align: left; 
+			background-color: #e0e9f0; 
+			border-top: 1px solid #f1f8fe; 
+			border-bottom: 1px solid #cbd2d8;
+			border-right: 1px solid #cbd2d8; 
+			}
+         }	
+ 			 body {
+    text-align: center;
+	min-width: 560px;
+    }	
+	.red{
+	  background-color: red; 
+	}
+	row {
+display: flex;
+}
+column {
+float: left;
+width: 50%;
+}
+img {
+   float: left;
+   clear: left; 
+   width: 100%; 
+}
+.box{
+	max-width: 500px;
+}
+
+
+	
+	@media screen (max-width: 1000px) {
+            .grid-container {
+
+		  grid-template-columns: auto; 
+grid-gap: 2px;
+		   
+		}
+		
+		 body {
+    text-align: center;
+	min-width: 560px;
+    }	
+        }

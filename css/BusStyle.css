@@ -1,0 +1,78 @@
+		
+		li { 
+			     display: inline; 
+				 margin: 0px 3px; 
+				 font-family: Arial; 
+	    } 
+
+        ul { 
+			    width: 570px; 
+				padding: 15px; 
+				margin: 0px auto 0px auto; 
+				border-top: 2px solid #000; 
+				border-bottom: 1px solid #000; 
+				text-align: center;
+	    }
+		
+		#header {
+				margin-top: 0;
+                padding: 3em 1em 2em 1em;
+                background-color: #D63230;
+			}
+		a {
+			  color: #000; 
+			  text-transform: uppercase; 
+			  text-decoration: none; 
+			  padding: 20px 18px 18px 20px; 
+			  }
+
+        table { 
+	          text-align: center; 
+	          align: center;
+	          display: inline-block;
+			  border-collapse: collapse;
+
+	     }
+		 @media screen and (max-width: 900px){
+		 table, thead, tbody, th, td, tr {
+    display: block;
+  }
+		 }
+	 body {
+    text-align: center;
+    }			  
+	
+	th, td {
+      padding: 10px;
+    }
+	.Start {
+	background-color: black; 
+	color: white; 
+	} 
+	.one{
+	background-color: red;
+	}
+	.two{
+	background-color: orange;
+	}
+	.three{
+	background-color: yellow;
+	}
+	.four{
+	background-color: blue;
+	}
+	.five{
+	background-color: green;
+	}
+	.six{
+	background-color: purple;
+	}
+	.seven{
+	background-color: white;
+	}
+	.eight{
+	background-color: teal;
+	}
+	.nine {
+	background-color: silver;
+	}

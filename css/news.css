@@ -1,0 +1,118 @@
+        
+		
+		li { 
+			     display: inline; 
+				 margin: 0px 3px; 
+				 font-family: Arial; 
+	    } 
+
+        ul { 
+			    width: 570px; 
+				padding: 15px; 
+				margin: 0px auto 0px auto; 
+				border-top: 2px solid #000; 
+				border-bottom: 1px solid #000; 
+				text-align: center;
+	    }
+		body {
+    text-align: center;
+	min-width: 600px;
+    }	
+		
+		#header {
+				margin-top: 0;
+                padding: 3em 1em 2em 1em;
+                background-color: #D63230;
+			}
+		a {
+			  color: #000; 
+			  text-transform: uppercase; 
+			  text-decoration: none; 
+			  padding: 20px 18px 18px 20px; 
+			  }  
+			  
+			 .box1 { 
+           clear: both;
+	       border: 2px solid purple; 
+           height: 300px; 
+	       width: 90%; 
+           padding: 5px; 
+           margin: 10px;
+           text-align: left; 		   
+            }
+			
+		.box2 { 
+           clear: both;
+	       border: 2px solid purple; 
+           height: 300px; 
+	       width: 90%; 
+           padding: 5px; 
+           margin: 10px;
+           text-align: left; 		   
+            }
+@media screen and (min-width: 900px){
+		.grid-container {
+		  display: grid; 
+		  /*Set up grid w 2 rows and 3 columns*/
+		  grid-template-rows: 80px 80px 80px; 
+		  grid-template-columns: auto auto; 
+		  grid-gap: 5px; /*Space between grid items*/		  background-color: light-blue;
+		  padding: 70px; 
+		  grid-gap: 250px 25px;
+		  width: 90%;
+		}
+		fieldset {
+		 float: right;
+		 width = 300; 
+		 height = 80; 
+		}
+		p {
+		text-align: center; 
+		}
+		.one {
+		 float: left; 
+		}
+		
+		.add {
+		 float: left; 
+		 width: 100%; 
+		 height: width;
+		}
+} 
+
+@media screen and (max-width: 900px){
+		.grid-container {
+		  display: grid; 
+		  /*Set up grid w 2 rows and 3 columns*/
+		  grid-template-rows: auto auto auto auto auto auto; 
+		  grid-template-columns: auto; 
+		  grid-gap: 5px; /*Space between grid items*/		  background-color: light-blue;
+		  padding: 70px; 
+		  grid-gap: 10px 25px;
+		  width: 90%;
+		  align: center;
+		}
+		fieldset {
+		 float: right;
+		 width = 300; 
+		 height = 80; 
+		}
+		form { margin: 0 auto;}
+		p {
+		text-align: center; 
+		}
+		.one {
+		 float: left; 
+		}
+		
+		.idd {
+		 float: left; 
+		 width: 100%; 
+		 height: width;
+		}
+		.box1 {
+			grid-row: 2 / 6; 
+		}
+		.box2{
+		grid-column: 1 / 2; grid-row: 1 / 2; }
+}

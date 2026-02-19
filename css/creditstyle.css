@@ -1,0 +1,77 @@
+		li { 
+			     display: inline; 
+				 margin: 0px 3px; 
+				 font-family: Arial; 
+	    } 
+
+        ul { 
+			    width: 570px; 
+				padding: 15px; 
+				margin: 0px auto 0px auto; 
+				border-top: 2px solid #000; 
+				border-bottom: 1px solid #000; 
+				text-align: center;
+	    }
+		
+		#header {
+				margin-top: 0;
+                padding: 3em 1em 2em 1em;
+                background-color: #D63230;
+			}
+		a {
+			  color: #000; 
+			  text-transform: uppercase; 
+			  text-decoration: none; 
+			  padding: 20px 18px 18px 20px; 
+			  }  
+		credit-card-form {
+		  display: inline;
+		}
+		
+		@media screen and (min-width: 900px){
+		 form { 
+	          text-align: center; 
+	          width: 50%;
+	          align: center;
+	          display: inline-block;
+	          border-top: solid 2px black; 
+			  padding: 20px; 
+			  
+	       } 
+		   
+		  
+		   .box {
+    border-bottom: 3px solid black;
+	border-top: 3px solid black;
+ 
+	display: grid;
+            place-items: center;
+			display: grid; 
+			grid-template-columns: auto; 
+			width: 100%; 
+			text-align: center; 
+		}
+	 body {
+    text-align: center;
+}
+
+}
+
+img{
+	width: 100%; 
+}
+
+@media screen and (max-width: 900px){
+	form{
+		width: 100%
+	}
+	.box {
+    border-bottom: 3px solid black;
+	border-top: 3px solid black; 
+	display: grid;
+    place-items: center;
+    display: grid; 
+			grid-template-columns: auto; 
+			width: 100%; 
+			text-align: center; 
+}
