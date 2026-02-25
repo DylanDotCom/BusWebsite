@@ -90,7 +90,6 @@ width: 50%;
 img {
    float: left;
    clear: left; 
-   width: 100%; 
 }
 .card{
 	max-width: 500px;
