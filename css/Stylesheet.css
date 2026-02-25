@@ -80,19 +80,14 @@
 	.red{
 	  background-color: red; 
 	}
-	row {
-display: flex;
-}
-column {
-float: left;
-width: 50%;
-}
+
 img {
    float: left;
    clear: left; 
 }
 .card{
-	max-width: 500px;
+	width: 500px;
+	height: 150px;
 }
 
 .highlight_option{
