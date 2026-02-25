@@ -105,7 +105,8 @@ img {
 	@media screen (max-width: 1000px) {
             .grid-container {
 		    grid-template-columns: auto; 
-            grid-gap: 2px;}
+            grid-gap:  2px;
+		}
 		
 		   body {
              text-align: center;
