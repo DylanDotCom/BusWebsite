@@ -22,7 +22,7 @@ $(".card5").on("click", function(){
    window.location.href = "Bustimetablepage.html";
 })
 
-$("form").submit(function(event){
+$("#paymentform").submit(function(event){
    event.preventDefault();
    var cardholdername = $("#cardholder-name").val();
    var cardnumber = $("#card-number").val();
