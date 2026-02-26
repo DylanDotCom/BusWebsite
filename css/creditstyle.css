@@ -32,7 +32,8 @@
 		 form { 
 	          text-align: center; 
 	          width: 50%;
-	          align: center;
+	          align-items: center;
+			  justify-content: center;
 	          display: inline-block;
 	          border-top: solid 2px black; 
 			  padding: 20px; 
@@ -74,4 +75,5 @@ img{
 			grid-template-columns: auto; 
 			width: 100%; 
 			text-align: center; 
+}
 }

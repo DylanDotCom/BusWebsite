@@ -1,12 +1,10 @@
 $(document).ready(function() {
   $(".card").children("div").hide();
 $(".card").mouseenter(function() {
-		$(this).addClass('highlight_option');
   $(this).children("div").slideDown("slow");
   $(this).siblings().fadeTo("fast", 0.1);
 	})
 $(".card").mouseleave(function() {
-		$(this).removeClass('highlight_option');
   $(this).children("div").slideUp("slow");
   $(this).siblings().fadeTo("fast", 1);
 	})
@@ -23,4 +21,15 @@ $(".card4").on("click", function(){
 $(".card5").on("click", function(){
    window.location.href = "Bustimetablepage.html";
 })
+
+$("form").submit(function(event){
+   event.preventDefault();
+   var cardholdername = $("#cardholder-name").val();
+   var cardnumber = $("#card-number").val();
+   var expiration = $("#expiry-date").val();
+   var cvv = $("#cvv").val();
+   console.log("Cardholder's name is: " + cardholdername + ".\nCard number is: " + cardnumber + ".\nExpiry date is: " + expiration + ".\n CV number is" + cvv + ".");
+  $("#paymentform").append().text("Ticket Booked!\n" + "Cardholder's name is: " + cardholdername + ".\nCard number is: " + cardnumber + ".\nExpiry date is: " + expiration + ". \n CV number is " + cvv + ".")
+})
 });
+

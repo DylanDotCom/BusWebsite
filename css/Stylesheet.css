@@ -11,19 +11,16 @@
 	
 	 .grid-container {
 		  display: grid; 
-		  /*Set up grid w 2 rows and 3 columns*/
-
-		   /*Space between grid items*/		  
+          align-items: center;	  
 		  padding: 70px; 
-
-		   background-color: #D63230;
-
-		   
+          background-color: #D63230;
+		  justify-items: center;
 		}
         .card {
 		   background-color: grey; 
 		   border: 5px solid black; 
 		   width: 500px;
+		   height: 150px;
 		   float: left; 
 		}
 
@@ -60,22 +57,10 @@
 			  padding: 20px 18px 18px 20px; 
 			  }  
 			  
-		tr.head{
-		    border: 2px;
-			padding: 5px 30px 5px 10px;
-			border-spacing: 0px; 
-			font-size: 90%; 
-			maring: 0px; 
-			text-align: left; 
-			background-color: #e0e9f0; 
-			border-top: 1px solid #f1f8fe; 
-			border-bottom: 1px solid #cbd2d8;
-			border-right: 1px solid #cbd2d8; 
-			}
-		}
  			 body {
     text-align: center;
 	min-width: 560px;
+	align-items: center;
     }	
 	.red{
 	  background-color: red; 
@@ -85,14 +70,7 @@ img {
    float: left;
    clear: left; 
 }
-.card{
-	width: 500px;
-	height: 150px;
-}
 
-.highlight_option{
-	background-color: red;
-}
 
 
 	
