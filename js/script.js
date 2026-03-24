@@ -31,5 +31,21 @@ $("#paymentform").submit(function(event){
    console.log("Cardholder's name is: " + cardholdername + ".\nCard number is: " + cardnumber + ".\nExpiry date is: " + expiration + ".\n CV number is" + cvv + ".");
   $("#paymentform").append().text("Ticket Booked!\n" + "Cardholder's name is: " + cardholdername + ".\nCard number is: " + cardnumber + ".\nExpiry date is: " + expiration + ". \n CV number is " + cvv + ".")
 })
+
+$("input:radio[name=rating]").click(function(){
+  $("#SubmitBtn").on("click", function(event){
+  event.preventDefault();
+    $("#sub").append().text("Subscribed! \nWe'll' keep you up to date!");
+
+
+});
+});
+ $("#SubmitBtn").on("click", function(event){
+  event.preventDefault();
+   $("#sub").append().text("Error! Reload page to refresh");
+
+   });
+
+
 });
 

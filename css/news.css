@@ -63,8 +63,6 @@
 		}
 		fieldset {
 		 float: right;
-		 width = 300; 
-		 height = 80; 
 		}
 		p {
 		text-align: center; 
@@ -90,12 +88,10 @@
 		  padding: 70px; 
 		  grid-gap: 10px 25px;
 		  width: 90%;
-		  align: center;
+	
 		}
 		fieldset {
-		 float: right;
-		 width = 300; 
-		 height = 80; 
+		 float: right; 
 		}
 		form { margin: 0 auto;}
 		p {
