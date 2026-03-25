@@ -28,7 +28,7 @@
 
         table { 
 	          text-align: center; 
-	          align: center;
+
 	          display: inline-block;
 			  border-collapse: collapse;
 
@@ -75,4 +75,16 @@
 	}
 	.nine {
 	background-color: silver;
+	}
+
+	#Route64{
+       background-color: gray;
+	   width: 300px;
+	   margin: auto;
+	}
+
+	.ButtonContainer{
+		flex-direction: column;
+	    flex-wrap: wrap;
+	    margin: auto;
 	}

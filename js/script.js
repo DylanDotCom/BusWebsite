@@ -45,6 +45,8 @@ $("input:radio[name=rating]").click(function(){
    $("#sub").append().text("Error! Reload page to refresh");
 
    });
-
+ $("#Route64").on("click", function(){
+    $(".rt64").slideToggle('slow');
+   });
 });
 
