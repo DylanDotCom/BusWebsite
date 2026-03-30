@@ -78,7 +78,10 @@
 	}
 
 	#Route64{
-       background-color: gray;
+	   width: 300px;
+	   margin: auto;
+	}
+	#Route73{
 	   width: 300px;
 	   margin: auto;
 	}

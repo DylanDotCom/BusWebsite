@@ -48,5 +48,22 @@ $("input:radio[name=rating]").click(function(){
  $("#Route64").on("click", function(){
     $(".rt64").slideToggle('slow');
    });
+
+   $("#Route73").on("click", function(){
+    $(".rt73").slideToggle('slow');
+   });
+
+   $("#Route64").mouseenter(function(){
+	  $(this).css("background-color", "silver");
+  });
+  $("#Route64").mouseleave(function(){
+	  $(this).css("background-color", "white");
+  });
+  $("#Route73").mouseenter(function(){
+	  $(this).css("background-color", "silver");
+  });
+  $("#Route73").mouseleave(function(){
+	  $(this).css("background-color", "white");
+  });
 });
 
